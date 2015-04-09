@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="description" content="gsnDfp examples">
     <meta name="viewport" content="width=device-width">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <!-- remove debug attribute in Production -->
+    <script src="http://cdn.gsngrocers.com/script/gsndfp/gsndfp.min.js" data-gsnid="354" data-debug="true" timer="15"></script>
   </head>
   <body>
     <h1>gsnDfp examples - refresh timer at 15s</h1>
@@ -28,9 +31,6 @@
       document.cookie = "gsnsw2=;expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
     </script>
     <!-- script is compatible with jquery 1.7.1 and up -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <!-- remove debug attribute in Production -->
-    <script src="http://cdn.gsngrocers.com/script/gsndfp/gsndfp.min.js" data-gsnid="354" data-debug="true" timer="15"></script>
     <script>
       // initialize default for gsn actions
       Gsn.Advertising.setDefault({
